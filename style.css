@@ -2,12 +2,38 @@ html{
     box-sizing: border-box;
 }
 
-.header{ /* Шапка */
+.header{    /* Шапка */
     position: absolute;
     width: 1438px;
     height: 591px;
     left: 0px;
     top: 0px;
+}
+
+.frameSocial{   /* Кнопки соц. сетей */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 32px;
+    height: 128px;
+    left: 1243px;
+    top: 237px;
+}
+
+.frameSmall{
+    position: static;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
 }
 
 /* *, *:before, *:after {
