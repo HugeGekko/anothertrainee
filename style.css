@@ -1,5 +1,9 @@
 html{
     box-sizing: border-box;
+    position: relative;
+    width: 1440px;
+    height: 5085px;
+    background: #FFFFFF;
 }
 
 .header{    /* Шапка */
@@ -10,7 +14,7 @@ html{
     top: 0px;
 }
 
-.frameSocial{   /* Кнопки соц. сетей */
+.frameSocial{   /* Несколько кнопок соц. сетей внутри */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +27,7 @@ html{
     top: 237px;
 }
 
-.frameSmall{
+.frameSmall{    /* Одна кнопка соц. сети */
     position: static;
     width: 32px;
     height: 32px;
@@ -34,6 +38,125 @@ html{
     order: 1;
     flex-grow: 0;
     margin: 16px 0px;
+}
+
+.headerContent{ /* Контент шапки */
+    position: absolute;
+    width: 1112px;
+    height: 431px;
+    left: 163px;
+    top: 30px;
+}
+
+.textHeaderMain{  /* Основной текст заголовка  */
+    position: absolute;
+    width: 486px;
+    height: 118px;
+    left: 163px;
+    top: 195px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #333333; 
+}
+
+.textHeaderFooter{ /* Текст под основным в заголовке */
+    position: absolute;
+    width: 315px;
+    height: 24px;
+    left: 163px;
+    top: 329px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #333333;
+}
+
+.headerButton{  /* Кнопка в шапке */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 17px 30px; */
+    padding: 8px 30px;
+
+    position: absolute;
+    /* width: 203px;
+    height: 48px; */
+    width: 100px;
+    height: 20px;
+    left: 163px;
+    top: 413px;
+
+    background: #FB9475;
+    border-radius: 24px;
+}
+
+.headerButtonText{  /* Текст на кнопке, которая внутри шапки */
+    position: static;
+    width: 143px;
+    height: 14px;
+    left: 30px;
+    top: 17px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.toppanel{ /* Верхняя панель в шапке */
+    position: absolute;
+    width: 1110px;
+    height: 45px;
+    left: 165px;
+    top: 30px;
+}
+
+.toppanelTextTitle{  /* Мир красоты */
+    position: absolute;
+    width: 173px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #333333;
+}
+
+.navigate{  /* Навигация верхней панели в шапке*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 495px;
+    height: 17px;
+    left: 250px;
+    top: 4px;
 }
 
 /* *, *:before, *:after {
