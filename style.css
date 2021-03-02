@@ -22,7 +22,7 @@ html{
     position: absolute;
     width: 32px;
     height: 128px;
-    left: 1243px;
+    left: 1290px;
     top: 237px;
 }
 
@@ -51,7 +51,7 @@ html{
     position: absolute;
     width: 486px;
     height: 118px;
-    left: 163px;
+    left: 0px;
     top: 195px;
 
     font-family: Montserrat;
@@ -67,7 +67,7 @@ html{
     position: absolute;
     width: 315px;
     height: 24px;
-    left: 163px;
+    left: 0px;
     top: 329px;
 
     font-family: Montserrat;
@@ -91,7 +91,7 @@ html{
     height: 48px; */
     width: 100px;
     height: 20px;
-    left: 163px;
+    left: 0px;
     top: 413px;
 
     background: #FB9475;
@@ -125,7 +125,7 @@ html{
     position: absolute;
     width: 1110px;
     height: 45px;
-    left: 165px;
+    left: 0px;
     top: 30px;
 }
 
@@ -154,7 +154,7 @@ html{
     position: absolute;
     width: 495px;
     height: 17px;
-    left: 200px;
+    left: 260px;
     top: 6px;
 }
 
@@ -268,15 +268,17 @@ html{
     position: absolute;
     width: 167px;
     height: 36px;
-    left: 900px;
+    top: 0; /* прикрепить к верху родителя */
+    right: 0;
     top: 6px;
+    text-align: right;
 }
 
 .phonenumber{   /* 8 (499) 686-17-62 */
     position: absolute;
     width: 153px;
     height: 14px;
-    left: 0px;
+    right: 0px;
     top: 0px;
 
     font-family: Montserrat;
@@ -285,7 +287,7 @@ html{
     font-size: 18px;
     line-height: 14px;
 
-    text-align: center;
+    text-align: right;
 
     color: #333333;
 }
@@ -294,7 +296,7 @@ html{
     position: absolute;
     width: 167px;
     height: 14px;
-    left: 0px;
+    right: 0px;
     top: 20px;
 
     font-family: Montserrat;
@@ -303,7 +305,7 @@ html{
     font-size: 11px;
     line-height: 14px;
     
-    text-align: left;
+    text-align: right;
 
     color: #333333;
 }
@@ -326,3 +328,161 @@ html{
 }
 
 /*!!! Не смог спрятать изображение за другие div */
+
+/* Далее элементы основой части сайта ↓↓↓ */
+
+.mainTextHero{  /* О салоне */
+    position: absolute;
+    width: 239px;
+    height: 59px;
+    left: 167px;
+    top: 691px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #333333;
+}
+
+.mainTextContentTop{   /* Мир красоты - это ... */
+    position: absolute;
+    width: 568px;
+    height: 96px;
+    left: 166px;
+    top: 782px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #333333;
+}
+
+.mainTextContentBottom{ /* Красота и хороший ... */
+    position: absolute;
+    width: 537px;
+    height: 156px;
+    left: 166px;
+    top: 894px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #333333;
+}
+
+.mainTextLink{  /* Развернуть */
+    position: absolute;
+    width: 84px;
+    height: 17px;
+    left: 167px;
+    top: 1040px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #278AFF;
+}
+
+.advantages{ /* Преимущества */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 1110px;
+    height: 176px;
+    left: 167px;
+    top: 1183px;
+}
+
+.advantagesFrame{ /* Элемент для блока "Преимущества" */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 350px;
+    height: 176px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.advantagesFrameIcon{ /* Иконка */
+    position: static;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.advantagesFrameHeader{ /* Удобные кабинеты */
+    position: static;
+    width: 210px;
+    height: 32px;
+    left: 82px;
+    top: 76px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #333333;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.advantagesFrameText{   /* Комфорт и стиль - принцип ... */
+    position: static;   
+    width: 270px;
+    height: 66px;
+    left: 27px;
+    top: 110px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #333333;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
