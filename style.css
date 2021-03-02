@@ -486,3 +486,161 @@ html{
     margin: 0px 0px;
 }
 
+.services{ /* Блок популярных услуг */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px;
+
+    position: absolute;
+    width: 1112px;
+    height: 431px;
+    left: 163px;
+    top: 1459px;
+
+    background: #FFFFFF;
+}
+
+.servicesHeader{ /* Заголовок "Популярные услуги" */
+    position: absolute;
+    width: 1109.64px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #333333;
+}
+
+.frame2{ /* Frame 2 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 1110px;
+    height: 728px;
+    left: 0px;
+    top: 79px;
+}
+
+.frame9{    /* Frame 9 */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 1110px;
+    height: 340px;
+    left: 0px;
+    top: 0px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+.frame10{   /* Frame 10 */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 730px;
+    height: 340px;
+    left: 0px;
+    top: 388px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+.servicesCard{  /* Карточка услуги */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 350px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.servicesCardImage{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 40%;
+
+    background: url(7691669_1920.jpg);
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.servicesCardHeader{/* Маникюр */
+    position: static;
+    left: 0%;
+    right: 0.28%;
+    top: 66.67%;
+    bottom: 26%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #333333;
+
+    flex: none;
+    order: 2;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.servicesCardText{
+    position: static;
+    left: 0%;
+    right: 0.28%;
+    top: 76.67%;
+    bottom: 16.67%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #333333;
+
+    flex: none;
+    order: 4;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
